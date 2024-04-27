@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "../Components/HeroSection";
 
-const home = () => {
+const Home = () => {
   return (
-    <div>home</div>
-  )
-}
+    <div className="w-full h-full bg-gradient-to-r from-blue-50 to-cyan-100">
+      <HeroSection />
+    </div>
+  );
+};
 
-export default home
+export default Home;
