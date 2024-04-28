@@ -4,12 +4,12 @@ const Skills = () => {
   return (
     <section className=" bg-[#F0F8FF] pb-20">
       <div className="container">
-        <h1 className="text-center font-bold text-4xl pt-20">My Tech Stacks</h1>
-        <h2 className="text-center pt-4 text-lg ">
+        <h1 className="text-center font-bold text-4xl pt-8">My Tech Stacks</h1>
+        <h2 className="text-center pt-2 text-lg ">
           
           Technologies I’ve been working with recently
         </h2>
-        <div className=" grid grid-cols-6 w-[80%] mx-auto gap-12  justify-items-center pt-20">
+        <div className=" grid grid-cols-6 w-[80%] mx-auto gap-12  justify-items-center pt-8">
           <img
             className="w-[80px] h-[80px] "
             src="./tech_icons/html.svg"

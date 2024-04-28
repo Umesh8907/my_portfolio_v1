@@ -7,13 +7,11 @@ import Projects from "../Components/Projects";
 const Home = () => {
   return (
     <div>
-      
       <HeroSection />
       <Skills />
-      <Projects/>
+      <Projects />
     </div>
   );
 };
 
 export default Home;
-
