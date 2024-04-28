@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "./Button";
 
 const HeroSection = () => {
   return (
-    <div className="container lg:flex sm:flex-col pt-8 items-center">
-      <div className="Heading flex-col">
+    <div className="container flex pt-8 items-center">
+      <div className="Heading flex-col w-1/2 mx-8">
         <h1 className="text-6xl font-extrabold mb-4">Hello, I'm Umesh Tandon</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
@@ -13,6 +14,7 @@ const HeroSection = () => {
           illo vero maiores rem, omnis dignissimos voluptatem cumque, quis
           numquam molestias at inventore corporis.
         </p>
+       <Button  title="Download My Resume"/>
       </div>
       <div className="Image">
         <img className="w-[650px]" src="./images/photo.png" alt="" />

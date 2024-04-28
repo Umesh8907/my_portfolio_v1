@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main shadow-md">
+    <div className="main shadow-md top-0 sticky bg-white">
       <div className="container flex items-center justify-between ">
         <div className="logo">
           <Link to="/">
@@ -15,7 +15,7 @@ const Navbar = () => {
             <NavLink
               to="/projects"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
+                isPending ? "pending " : isActive ? "" : ""
               }
             >
               Projects
@@ -23,7 +23,7 @@ const Navbar = () => {
             <NavLink
               to="/services"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
+                isPending ? "pending" : isActive ? "" : ""
               }
             >
               Services
@@ -31,7 +31,7 @@ const Navbar = () => {
             <NavLink
               to="/tech"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
+                isPending ? "pending" : isActive ? "" :  ""
               }
             >
               Tech Stacks
@@ -39,7 +39,7 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
+                isPending ? "pending" : isActive ? "" : ""
               }
             >
               Contact Me
