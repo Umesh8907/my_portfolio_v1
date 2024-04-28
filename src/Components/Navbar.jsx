@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -47,12 +48,12 @@ const Navbar = () => {
           </div>
           <div className="icons flex gap-2 mx-8">
           
-          <img className="w-8" src="./icons/github.svg" alt="" />
-          <img className="w-8" src="./icons/linkedin.svg" alt="" />
-          <img className="w-8" src="./icons/twitter.svg" alt="" />
+          <img className="w-8" src="./icons/github.svg" alt="github" />
+          <img className="w-8" src="./icons/linkedin.svg" alt="linkedin" />
+          <img className="w-8 " src="./icons/twitter.svg" alt="twitter" />
           
         </div>
-        <button className="bg-slate-600 px-6 py-2 text-white  rounded-lg">Hire Me</button>
+        <Button title="Hire Me"/>
         </div>
       </div>
     </div>

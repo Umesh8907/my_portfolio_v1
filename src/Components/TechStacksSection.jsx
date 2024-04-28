@@ -1,6 +1,6 @@
 import React from "react";
 
-const Skills = () => {
+const TechStacksSection = () => {
   return (
     <section className=" bg-[#F0F8FF] pb-20">
       <div className="container">
@@ -66,7 +66,7 @@ const Skills = () => {
             alt="icons"
           />
           <img
-            className="w-[80px] h-[80px] "
+            className="w-[80px] h-[80px]"
             src="./tech_icons/boots.svg"
             alt="icons"
           />
@@ -76,4 +76,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default TechStacksSection;

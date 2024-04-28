@@ -1,15 +1,17 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+
 import HeroSection from "../Components/HeroSection";
-import Skills from "../Components/Skills";
-import Projects from "../Components/Projects";
+import TechStacksSection from "../Components/TechStacksSection";
+import ProjectsSection from "../Components/ProjectsSection";
+import ServicesSection from "../Components/ServicesSection";
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      <Skills />
-      <Projects />
+      <TechStacksSection />
+      <ProjectsSection />
+      <ServicesSection />
     </div>
   );
 };

@@ -42,3 +42,54 @@ export const projects_data = [
     image_url: "./projects_img/8.png",
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    title: "Web Development",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 2,
+    title: "Android Development",
+    desc: "Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 3,
+    title: "UI/UX Design",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 4,
+    title: "Audio Mixing & Mastering",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 5,
+    title: "Graphic Designing",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 6,
+    title: "Video Editing",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 7,
+    title: "DevOps",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+  {
+    id: 8,
+    title: "System Design",
+    desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
+    icon: "./tech_icons/redux.svg"
+  },
+]

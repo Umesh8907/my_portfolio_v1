@@ -1,8 +1,8 @@
 import React from 'react'
-import Cards from './Cards'
+import Cards from './Cards.jsx'
 import { projects_data } from '../Constants/data.js';
 
-const Projects = () => {
+const ProjectsSection = () => {
   return (
     <div className='w-full bg-slate-100 pb-20'>
     <div className="home-page  w-[75%] mx-auto">
@@ -24,4 +24,4 @@ const Projects = () => {
 
 
 
-export default Projects 
+export default ProjectsSection 
