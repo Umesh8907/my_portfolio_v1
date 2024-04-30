@@ -9,7 +9,7 @@ const TechStacksSection = () => {
           
           Technologies I’ve been working with recently
         </h2>
-        <div className=" grid grid-cols-6 w-[80%] mx-auto gap-12  justify-items-center pt-8">
+        <div className=" grid md:grid-cols-6 grid-cols-3 w-[80%] mx-auto gap-12  justify-items-center pt-8">
           <img
             className="w-[80px] h-[80px] "
             src="./tech_icons/html.svg"

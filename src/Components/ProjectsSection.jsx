@@ -11,7 +11,7 @@ const ProjectsSection = () => {
           
         "Visionary Initiatives Making an Impact"
         </h2>
-      <div className=" project-list grid grid-cols-3 place-items-center justify-items-center content-center  gap-4 mt-8">
+      <div className=" project-list grid md:grid-cols-3 grid-cols-1 place-items-center justify-items-center content-center  gap-4 mt-8">
         {/* Mapping projects to project cards */}
         {projects_data.map((projects_data) => (
           <Cards key={projects_data.id} title={projects_data.title} description={projects_data.description} image_url={projects_data.image_url}  />

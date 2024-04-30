@@ -12,7 +12,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex">
-          <div className="menu flex gap-4 mx-8 items-center ">
+          <div className="menu lg:flex gap-4 mx-8 items-center hidden  ">
             <NavLink
               to="/projects"
               className={({ isActive, isPending }) =>
@@ -46,7 +46,7 @@ const Navbar = () => {
               Contact Me
             </NavLink>
           </div>
-          <div className="icons flex gap-2 mx-8">
+          <div className="icons md:flex gap-2 mx-8 hidden">
           
           <img className="w-8" src="./icons/github.svg" alt="github" />
           <img className="w-8" src="./icons/linkedin.svg" alt="linkedin" />
