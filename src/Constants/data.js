@@ -1,3 +1,6 @@
+
+
+
 export const projects_data = [
   {
     id: 1,
@@ -48,48 +51,53 @@ export const services = [
     id: 1,
     title: "Web Development",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/web.png",
   },
   {
     id: 2,
     title: "Android Development",
     desc: "Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/android.png",
   },
   {
     id: 3,
     title: "UI/UX Design",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/ui.png",
   },
   {
     id: 4,
     title: "Audio Mixing & Mastering",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/sound.png",
   },
   {
     id: 5,
     title: "Graphic Designing",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/graphic.png",
   },
   {
     id: 6,
     title: "Video Editing",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/editing.png",
   },
   {
     id: 7,
     title: "DevOps",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/devops.png",
   },
   {
     id: 8,
     title: "System Design",
     desc: " Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur",
-    icon: "./tech_icons/redux.svg"
+    icon: "./services_img/system.png",
   },
-]
+];
+
+
+
+
+ 
